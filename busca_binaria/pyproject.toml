@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "busca-binaria"
+version = "0.1.0"
+description = "Implementação de busca binária"
+authors = ["filipe <fszribeiro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "busca_binaria"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
